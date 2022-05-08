@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to right,#0594F6,rgba(17, 54, 71));
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: normal;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 350px;
+}
+
+fieldset{
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+}
+
+legend{
+    border: 1px solid  dodgerblue;
+    text-align: center;
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+div{
+    position: relative;
+    margin: 25px 10px 10px 10px ;
+}
+
+.barra{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.texto{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.genero{
+    margin: 0px;
+}
+
+#sexo{
+    margin-bottom: 20px;
+}
+
+.sexo{
+    margin-top: 10px;
+}
+
+
+
+#data{
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 7px;
+    margin: 0px;
+}
+
+#data2{
+    font-weight: bold;
+}
+
+.cidade{
+    margin-top: 10px;
+}
+
+.botao{
+    border: none;
+    outline: none;
+    width: 94%;
+    padding: 15px;
+    border-radius: 10px;
+    margin:10px;
+    background-image: linear-gradient(to right, rgb(0,92,197), rgb(90,20,220));
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+}
+
+.botao:hover{
+    background-image: linear-gradient(to right, rgb(0, 78, 167), rgb(70, 16, 170));
+}
+
+.barra:focus ~ .texto,
+.barra:valid ~ .texto{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+    transition-duration: 0.5s;
+}
