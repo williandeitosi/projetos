@@ -38,3 +38,15 @@ h1 {
     content: "\274C";
     font-size: 40px;
 }
+
+.btn {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+button {
+    width: 200px;
+    height: 50px;
+    
+}
