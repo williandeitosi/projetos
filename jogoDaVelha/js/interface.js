@@ -40,6 +40,13 @@ function reiniciar() {
   board = ["", "", "", "", "", "", "", "", ""];
   playerTime = 0;
   gameOver = false;
+ 
+  let blocos = document.querySelectorAll(".bloco");
+  
+  blocos.forEach(function(square) {
+    square.innerHTML = "";
+  });
 
-  console.log("foi");
+
+  
 }
